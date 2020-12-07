@@ -100,7 +100,8 @@ If VERSION and OS are not specified, use the defaults of
     (rust       "40620bf")
     (scala      "904e2b1")
     (swift      "a22fa5e")
-    (typescript "ebd10b4" ("typescript" "tsx")))
+    (typescript "ebd10b4" ("typescript" "tsx"))
+    (yaml       "258751d" nil "https://github.com/ikatyang/tree-sitter-yaml"))
   "List of language symbols and their corresponding grammar sources.
 Note that these are mostly for the grammars. We treat the queries they include
 as references, instead of using them directly for syntax highlighting.
